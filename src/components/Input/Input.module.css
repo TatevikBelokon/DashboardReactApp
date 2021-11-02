@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap');
+.wrap{
+    display: flex;
+    margin: 4% 0 3%;    
+    border: 1px solid #EBEBEB;
+    border-radius: 15px;
+    background: #FFFFFF;
+    font: normal normal 14px/16px Roboto;
+}
+.input{	
+    border: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 45px;
+    width: 95%;       
+    background-image: url('../../images/Vector.png');
+    background-position: 10px 14px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+::placeholder {
+  color:  #D1D1D1; 
+}
+input:focus{
+    outline: none;
+}
+.count{
+    color: #D1D1D1;
+    padding-top: 1.2%;    
+}

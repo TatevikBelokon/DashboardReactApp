@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+.title{
+	font: normal bold 26px/32px Montserrat;
+	color: #222222;
+}
+.preloader{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
